@@ -1,8 +1,18 @@
-# hellographql-with-quarkus project
+# PoC with Quarkus Framework
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+
+##Features
+###schema graphql
+````shell script
+curl http://localhost:8080/graphql/schema.graphql
+````
+
+### Graphql UI client
+
+http://localhost:8080/graphql-ui/
 
 ## Running the application in dev mode
 
